@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "899495602953",
+    "project_id": "volunteer-2121",
+    "storage_bucket": "volunteer-2121.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:899495602953:android:f69fc2c7238c17b49341d8",
+        "android_client_info": {
+          "package_name": "site.thewhale.volunteer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "899495602953-6ppdluln3921m9rsa8r5em6iuoo9vtdp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJoch46frCw0Brssj6kt3Ba-EQtMnOMHs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "899495602953-6ppdluln3921m9rsa8r5em6iuoo9vtdp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
