@@ -30,7 +30,7 @@ public class LoginActivity extends AppCompatActivity {
         EditText email = findViewById(R.id.loginEmail);
         EditText password = findViewById(R.id.loginPassword);
         TextView create = findViewById(R.id.loginCreate);
-        Button btn = findViewById(R.id.registerBtn);
+        Button btn = findViewById(R.id.loginBtn);
 
         mAuth = FirebaseAuth.getInstance();
 
@@ -69,6 +69,7 @@ public class LoginActivity extends AppCompatActivity {
                                 Intent i = new Intent(LoginActivity.this, HomeActivity.class);
                                 startActivity(i);
                                 finish();
+                                KtFunctionsKt.motionI(LoginActivity.this, "مرحباً", "لقد سجلت دخولك 3>");
                             } else {
                                 Toast.makeText(LoginActivity.this, "You have to confirm your email first!",
                                         Toast.LENGTH_SHORT).show();
