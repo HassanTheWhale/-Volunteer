@@ -32,23 +32,22 @@ public class Main extends Fragment {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_main, container, false);
 
-        RecyclerView
-                ParentRecyclerViewItem
-                = view.findViewById(
-                R.id.parent_recyclerview);
-
-        LinearLayoutManager
-                layoutManager
-                = new LinearLayoutManager(
-                view.getContext());
-
-        ParentAdapter parentItemAdapter = new ParentAdapter( ParentItemList());
-
-        ParentRecyclerViewItem
-                .setAdapter(parentItemAdapter);
-        ParentRecyclerViewItem
-                .setLayoutManager(layoutManager);
-
+//        RecyclerView
+//                ParentRecyclerViewItem
+//                = view.findViewById(
+//                R.id.parent_recyclerview);
+//
+//        LinearLayoutManager
+//                layoutManager
+//                = new LinearLayoutManager(
+//                view.getContext());
+//
+//        ParentAdapter parentItemAdapter = new ParentAdapter( ParentItemList());
+//
+//        ParentRecyclerViewItem
+//                .setAdapter(parentItemAdapter);
+//        ParentRecyclerViewItem
+//                .setLayoutManager(layoutManager);
 
         ArrayList<Movies> moviesArrayList = new ArrayList<Movies>();
         moviesArrayList.add(
