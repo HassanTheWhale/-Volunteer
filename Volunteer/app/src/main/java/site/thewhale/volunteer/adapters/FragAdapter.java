@@ -26,8 +26,6 @@ public class FragAdapter extends FragmentPagerAdapter {
                 return new Favorite();
             case 2:
                 return new Profile();
-
-
         }
         return null;
     }
